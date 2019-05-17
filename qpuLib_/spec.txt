@@ -1,0 +1,10 @@
+250 / 400Mhz ? clock
+12x qpu Units
+Each unit is a quad-core(?) SIMD processor
+16 same-instruct per 4 clocks // ~divides clock rate by four for unique instructions, but multiply by four for data throughput?
+[62 - 100Mhz] inst Speed // [1.0 - 1.6Ghz data Approx?] -FLOPS / core? 
+
+rated 24 GFLOP peak for 12 cores [at 500MHz?] // (using 16 bit words?)
+32-bit word size
+
+8K TMU/core usable? --vpu local memory? // 2K 32-bit word
