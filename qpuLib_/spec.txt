@@ -8,3 +8,6 @@ rated 24 GFLOP peak for 12 cores [at 500MHz?] // (using 16 bit words?)
 32-bit word size
 
 8K TMU/core usable? --vpu local memory? // 2K 32-bit word
+//------------------
+
+Beware of {} loop unrolling with very long loops?!
